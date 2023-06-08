@@ -1,0 +1,91 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    text-align: center;
+    background-color: rgb(17,124,143);
+    padding: 40px;
+    font-size: 40px;
+    color: white;
+    margin: 0%;
+}
+nav,footer{
+    background-color:#333;
+    overflow: hidden;
+    font-weight:500;
+}
+footer{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+nav a,footer a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+nav{
+    position: sticky;
+    top: 0px;
+}
+nav a:hover,footer a:hover{
+    color: rgb(17,124,143);
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+section a{
+    text-decoration: none;
+    padding: 40px;
+}
+.class div{
+    text-align: center;
+}
+.class div a{
+    padding: 0px;
+    padding-left: 20px;
+}
+.class p{
+    text-indent: 100px;
+    padding: 10px;
+}
+@media screen and (max-width :600px) {
+    h1{
+        background-color: rgb(17,124,143);
+    }
+    .class img{
+        width: 175px;
+        height: 100px;
+    }
+    .class .hi {
+        margin-left: 30px;
+    }
+    nav a{
+        padding: 10px;
+    }
+    footer a{
+        padding: 8px;
+        font-size: small;
+    }
+    main section h2{
+        margin: 0%;
+    }
+    .hello{
+        margin: 0%;
+        font-size: medium;
+        padding: 10px;
+    }
+    main section h2{
+        padding-bottom: 0%;
+    }
+    .class div img{
+        width: 40px;
+        height: 30px;
+    }
+}
