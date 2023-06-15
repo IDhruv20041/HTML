@@ -1,0 +1,64 @@
+@media screen and (width:600px) {
+    body{
+        background-image: url("image/body1.jpg");
+        background-position: initial;        
+    }
+    .left img{
+        width: 80px;
+        height: 50px;
+    }
+    .left h2{
+        font-size: medium;
+        position: absolute;
+        top: 80px;
+        left: 7px;
+        font-weight: normal;
+    }
+    .mid{
+        width: 60%;
+        margin: 20px 150px;
+    }
+    .navbar a{
+        font-size: medium;
+    }
+    .main{
+        width: 300px;
+        height: 400px;
+        position: relative;
+        top: 30px;
+        left: 280px;
+    }
+    .username{
+        position: absolute;
+        top: 60px;
+        left: 30px;
+        width: 200px;
+    }
+    .password{
+        position: absolute;
+        top: 150px;
+        left: 30px;
+        width: 200px;
+    }
+    input[type="text"],input[type="password"]{
+        width: 200px;
+        height: 20px;
+    }
+    input[type="button"]{
+        width: 220px;
+        height: 30px;
+        position: absolute;
+        top: 260px;
+        left: 40px;
+    }
+    .forgot{
+        position: relative;
+        top: 290px;
+        left: 40px;
+    }
+    .signup{
+        position: relative;
+        top: 290px;
+        left: 120px;
+    }
+}

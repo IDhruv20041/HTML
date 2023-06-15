@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("image/body.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-color: black;
+    color: white;
+}
+.left{
+    display: inline-block;
+}
+.left img{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    height: 75px;
+    width: 150px;
+}
+.left h2{
+    display: block;
+    margin: 0%;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    width: 200px;
+    position: absolute;
+    top: 110px;
+    left: 2px;
+}
+.left h2 span{
+    margin: 0%;
+    width: 100px;
+    color: rgb(204, 70, 13);
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    
+}
+.navbar li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(204, 70, 13);
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.right p a{
+    border: 2px solid white;
+    padding: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+.right p a:hover{
+    color: rgb(204, 70, 13);
+    border-color: rgb(204, 70, 13);
+}
+.main{
+    display: block;
+    width: 40%;
+    position: absolute;
+    top: 150px;
+    left: 380px;
+}
+.main h3{
+    font-weight: 100;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.white{
+    font-size: 50px;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    display: inline;
+    font-weight: bolder;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+.orange{
+    font-size: 60px;
+    color: rgb(204, 70, 13);
+    padding: 0%;
+    margin: 0%;
+    display: inline;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.button input[type="button"]{
+    padding: 10px;
+    background-color: rgb(204, 70, 13);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.button input[type="button"]:hover{
+    background-color: #333;
+    color: rgb(204, 70, 13);
+    font-weight: bolder;
+}
+.main_div{
+    display: block;
+    margin: 0 auto;
+    width: 970px;
+    border: 1px solid white;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.main_left{
+    border: 2px solid rgb(204, 70, 13);
+    display:inline-block;
+    width: 300px;
+    margin: 10px;
+}
+.main_mid{
+    border: 2px solid rgb(204, 70, 13);
+    display: inline-block;
+    margin: 0 auto;
+    width: 300px;
+}
+.main_right{
+    border: 2px solid rgb(204, 70, 13);
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+}
+.main_left h3,.main_mid h3,.main_right h3{
+    text-align: center;
+    color: rgb(204, 70, 13);
+}
+.main_left p,.main_mid p,.main_right p{
+    padding: 10px;
+    padding-left: 20px;
+}

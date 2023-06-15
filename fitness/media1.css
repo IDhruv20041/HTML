@@ -1,0 +1,77 @@
+@media screen and (max-width:600px) {
+    body{
+        background-image: url("image/body1.jpg");        
+        background-position-x: left;
+        background-position-y: top;
+    }
+    .left img{
+        width: 80px;
+        height: 50px;
+    }
+    .left h2{
+        font-size: medium;
+        position: absolute;
+        top: 80px;
+        left: 7px;
+        font-weight: normal;
+    }
+    .mid{
+        width: 60%;
+        margin: 20px 150px;
+    }
+    .navbar a{
+        font-size: medium;
+    }
+    .right p a{
+        font-size: small;
+        position: relative;
+        left: 15px;
+        top: 10px;
+    }
+    .main{
+        width: 58%;
+        position: absolute;
+        top: 120px;
+        left: 260px;
+    }
+    .main h3{
+        font-size: medium;
+
+    }
+    .white{
+        font-size: 25px;
+    }
+    .orange{
+        font-size: 30px;
+    }
+    .button input[type="button"]{
+        padding: 5px;
+        font-weight: normal;
+        letter-spacing: 0px;
+    }
+    .main_div{
+        width: 325px;
+        position: absolute;
+        left: 0px;
+        top: 250px;
+    }
+    .main_left{
+        /* width: 180px; */
+    }
+    .main_mid{
+        /* width: 180px; */
+        margin: 0 10px;
+    }
+    .main_right{
+        /* width: 180px; */
+    }
+    .main_left h3,.main_mid h3,.main_right h3{
+        text-align: center;
+        font-size: medium;
+    }
+    .main_left p,.main_mid p,.main_right p{
+        font-size: small;
+        padding: 5px;
+        padding-top: 0px;
+    }
+}
