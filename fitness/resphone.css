@@ -1,0 +1,89 @@
+@media screen and (max-width:412px) {
+    body{
+        background-image: url("image/body1.jpg");        
+        background-position-x: left;
+        background-position-y: 60px;
+        background-size: 150px;
+    }
+    .left img{
+        width: 50px;
+        height: 30px;
+    }
+    .left h2{
+        font-size: small;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        font-weight: normal;
+    }
+    .mid{
+        width: 80%;
+        margin: 0 90px;
+    }
+    .navbar a{
+        font-size: small;
+    }
+    .right p a{
+        height: 13px;
+        overflow: hidden;
+        font-size: small;
+        position: absolute;
+        top: 7px;
+        right: 0px;
+        border: 1px solid white;
+        padding-top: 0px;
+    }
+    .main{
+        width: 58%;
+        position: relative;
+        top: 50px;
+        left: 150px;
+
+    }
+    .main h3{
+        font-size: small;
+        margin: 0%;
+    }
+    .white{
+        font-size: 15px;
+    }
+    .orange{
+        font-size: 20px;
+    }
+    .up{
+        position: relative;
+        bottom: 15px;
+    }
+    .button input[type="button"]{
+        padding: 3px;
+        font-size: smaller;
+        font-weight: normal;
+        letter-spacing: 0px;
+        position: relative;
+        bottom: 30px;
+        left: 20px;
+    }
+    .main_div{
+        width: 390px;
+        position: relative;
+        left: -140px;
+        top: 30px;
+    }
+    .main_left,.main_right{
+        width: 365px;
+    }
+    .main_mid{
+        width: 365px;
+        margin: 0 10px;
+    }
+    .main_left h3,.main_mid h3,.main_right h3{
+        text-align: center;
+        font-size: small;
+        margin-top: 3px;
+    }
+    .main_left p,.main_mid p,.main_right p{
+        font-size: smaller;
+        padding: 5px;
+        padding-top: 0px;
+    }
+}
