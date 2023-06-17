@@ -10,14 +10,14 @@
         height: 30px;
     }
     .left h2{
-        font-size: small;
+        font-size: smaller;
         position: absolute;
         top: 60px;
         left: 0px;
         font-weight: normal;
     }
     .mid{
-        width: 80%;
+        width: 100%;
         margin: 0 90px;
     }
     .navbar a{
@@ -29,7 +29,7 @@
         font-size: small;
         position: absolute;
         top: 7px;
-        right: 0px;
+        right: 10px;
         border: 1px solid white;
         padding-top: 0px;
     }
@@ -52,7 +52,7 @@
     }
     .up{
         position: relative;
-        bottom: 15px;
+        bottom: 25px;
     }
     .button input[type="button"]{
         padding: 3px;
@@ -80,6 +80,7 @@
         text-align: center;
         font-size: small;
         margin-top: 3px;
+        font-weight: 600px;
     }
     .main_left p,.main_mid p,.main_right p{
         font-size: smaller;
