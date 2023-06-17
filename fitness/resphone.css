@@ -24,6 +24,7 @@
         font-size: small;
     }
     .right p a{
+        width: 50px;
         height: 13px;
         overflow: hidden;
         font-size: small;
@@ -52,7 +53,7 @@
     }
     .up{
         position: relative;
-        bottom: 25px;
+        bottom: 35px;
     }
     .button input[type="button"]{
         padding: 3px;
@@ -80,7 +81,7 @@
         text-align: center;
         font-size: small;
         margin-top: 3px;
-        font-weight: 600px;
+        font-style: bold;
     }
     .main_left p,.main_mid p,.main_right p{
         font-size: smaller;
